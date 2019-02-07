@@ -30,7 +30,12 @@ namespace Magnum {
 @tableofcontents
 @m_footernavigation
 
-@anchor changelog-integration-latest
+@section changelog-integration-latest Changes since 2019.01
+
+@subsection changelog-integration-latest-new New features
+
+-   New @ref EigenIntegration library, providing conversion of math types from
+    and to [Eigen](http://eigen.tuxfamily.org/) APIs.
 
 @section changelog-integration-2019-01 2019.01
 
