@@ -24,7 +24,7 @@ matrix:
   include:
   - language: cpp
     os: linux
-    dist: trusty
+    dist: xenial
     compiler: gcc
     env:
     - JOBID=linux-gl
@@ -33,7 +33,7 @@ matrix:
     - LCOV_EXTRA_OPTS="--gcov-tool /usr/bin/gcov-4.8"
   - language: cpp
     os: linux
-    dist: trusty
+    dist: xenial
     compiler: gcc
     env:
     - JOBID=linux-nondeprecated
@@ -41,7 +41,7 @@ matrix:
     - BUILD_DEPRECATED=OFF
   - language: cpp
     os: linux
-    dist: trusty
+    dist: xenial
     compiler: clang
     env:
     - JOBID=linux-sanitizers
@@ -71,7 +71,7 @@ matrix:
         - libtinyxml2-dev
   - language: cpp
     os: linux
-    dist: trusty
+    dist: xenial
     compiler: gcc
     env:
     - JOBID=linux-gles2
@@ -81,7 +81,7 @@ matrix:
     - LCOV_EXTRA_OPTS="--gcov-tool /usr/bin/gcov-4.8"
   - language: cpp
     os: linux
-    dist: trusty
+    dist: xenial
     compiler: gcc
     env:
     - JOBID=linux-gles3
@@ -126,7 +126,7 @@ matrix:
     - TARGET_GLES2=OFF
   - language: android
     os: linux
-    dist: trusty
+    dist: xenial
     env:
     - JOBID=android-gles2
     - TARGET=android
@@ -143,7 +143,7 @@ matrix:
       - sys-img-armeabi-v7a-android-22
   - language: android
     os: linux
-    dist: trusty
+    dist: xenial
     env:
     - JOBID=android-gles3
     - TARGET=android
