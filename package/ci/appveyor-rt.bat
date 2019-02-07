@@ -79,11 +79,11 @@ cmake .. ^
     -DOPENGLES2_INCLUDE_DIR=%APPVEYOR_BUILD_FOLDER%/angle/include ^
     -DOPENGLES3_LIBRARY=%APPVEYOR_BUILD_FOLDER%/angle/winrt/10/src/Release_x64/lib/libGLESv2.lib ^
     -DOPENGLES3_INCLUDE_DIR=%APPVEYOR_BUILD_FOLDER%/angle/include ^
-    -DEigen3_DIR=%APPVEYOR_BUILD_FOLDER%/eigen/cmake/ ^
+    -DEigen3_DIR=%APPVEYOR_BUILD_FOLDER%/deps/eigen/cmake/ ^
     -DWITH_BULLET=OFF ^
     -DWITH_DART=OFF ^
-    -DWITH_GLM=ON ^
     -DWITH_EIGEN=ON ^
+    -DWITH_GLM=ON ^
     -DWITH_IMGUI=%TARGET_GLES3% ^
     -DWITH_OVR=OFF ^
     -DBUILD_STATIC=ON ^

@@ -73,7 +73,7 @@ cmake .. ^
     -DBULLET_DYNAMICS_LIBRARY=%APPVEYOR_BUILD_FOLDER%/bullet/lib/BulletDynamics_Debug.lib ^
     -DBULLET_MATH_LIBRARY=%APPVEYOR_BUILD_FOLDER%/bullet/lib/LinearMath_Debug.lib ^
     -DBULLET_SOFTBODY_LIBRARY=%APPVEYOR_BUILD_FOLDER%/bullet/lib/BulletSoftBody_Debug.lib ^
-    -DEigen3_DIR=%APPVEYOR_BUILD_FOLDER%/eigen/cmake/ ^
+    -DEigen3_DIR=%APPVEYOR_BUILD_FOLDER%/deps/eigen/cmake/ ^
     -DWITH_BULLET=ON ^
     -DWITH_DART=OFF ^
     -DWITH_EIGEN=ON ^

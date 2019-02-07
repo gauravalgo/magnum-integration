@@ -76,7 +76,7 @@ cmake .. ^
     -DCMAKE_INSTALL_PREFIX=%APPVEYOR_BUILD_FOLDER%/deps ^
     -DGLM_INCLUDE_DIR=%APPVEYOR_BUILD_FOLDER%/deps/glm ^
     -DIMGUI_DIR=%APPVEYOR_BUILD_FOLDER%/deps/imgui ^
-    -DEigen3_DIR=%APPVEYOR_BUILD_FOLDER%/eigen/cmake/ ^
+    -DEigen3_DIR=%APPVEYOR_BUILD_FOLDER%/deps/eigen/cmake/ ^
     -DWITH_BULLET=ON ^
     -DWITH_DART=OFF ^
     -DWITH_EIGEN=ON ^
