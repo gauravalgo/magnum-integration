@@ -105,6 +105,7 @@ cmake .. \
     -DIMGUI_DIR=$HOME/imgui \
     -DWITH_BULLET=ON \
     -DWITH_DART=OFF \
+    -DWITH_EIGEN=ON \
     -DWITH_GLM=ON \
     -DWITH_IMGUI=$TARGET_GLES3 \
     -DWITH_OVR=OFF \

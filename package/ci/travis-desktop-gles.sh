@@ -71,6 +71,7 @@ cmake .. \
     -DCMAKE_BUILD_TYPE=Debug \
     -DWITH_BULLET=ON \
     -DWITH_DART=ON \
+    -DWITH_EIGEN=ON \
     -DWITH_GLM=ON \
     -DWITH_IMGUI=$TARGET_GLES3 \
     -DWITH_OVR=OFF \
